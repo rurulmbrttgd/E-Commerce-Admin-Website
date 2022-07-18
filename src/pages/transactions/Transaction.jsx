@@ -28,7 +28,7 @@ export default function Transaction() {
         const currentStatus = item.status;
     
         try {
-          const res = await axiosInstance.put("http://localhost:5000/api/orders/" + id, {
+          const res = await axiosInstance.put("https://intothewoods.herokuapp.com/api/orders/" + id, {
             status: currentStatus + 1,
           });
           setOrders([

@@ -1,0 +1,22 @@
+
+  .update {
+    margin: 5px auto;
+
+    color: #59302D;
+    background-color: #CED9BF;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 250ms ease-in 100ms;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    left: 94%;
+  }
+ .stat{
+   color: #59302D;
+   background-color: rgba(206, 217, 191, 0.3);
+   padding: 5px;
+   font-size: 15px;
+   text-transform: uppercase;
+ }
